@@ -29,5 +29,5 @@
             maven-version: 3.9.9
 
         - name: Run TestScenarios
-          run:  mvn -DsuiteXmlFile="RunParallelExecution.xml" clean test
+          run:  mvn -DsuiteXmlFile="RunParallelExecution.xml" -DexecutionType="LocalHeadless" clean test
           continue-on-error: true

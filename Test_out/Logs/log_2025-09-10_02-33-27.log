@@ -1,0 +1,15 @@
+[INFO] 10-09-2025 02:33:28 [main] [com.challenge.listeners.TestNGListeners] - Cleaned Allure results
+[INFO] 10-09-2025 02:33:28 [main] [com.challenge.listeners.TestNGListeners] - Starting execution
+[INFO] 10-09-2025 02:33:28 [main] [com.challenge.listeners.TestNGListeners] - Loaded properties
+[INFO] 10-09-2025 02:33:28 [TestNG-tests-1] [com.challenge.drivers.GUIFactory] - Starting driver for browser: EDGE
+[INFO] 10-09-2025 02:33:28 [TestNG-tests-2] [com.challenge.drivers.GUIFactory] - Starting driver for browser: CHROME
+[INFO] 10-09-2025 02:33:28 [TestNG-tests-3] [com.challenge.drivers.GUIFactory] - Starting driver for browser: FIREFOX
+[INFO] 10-09-2025 02:33:31 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - Driver Initialized for edge browser
+[INFO] 10-09-2025 02:33:31 [TestNG-tests-1] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 10-09-2025 02:33:31 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - Navigating to URL: https://www.bing.com/
+[INFO] 10-09-2025 02:33:32 [TestNG-tests-1] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 10-09-2025 02:33:32 [TestNG-tests-1] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatRelatedSearchesContainsVodafone started
+[INFO] 10-09-2025 02:33:32 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - This test is running on Edge browser
+[INFO] 10-09-2025 02:33:34 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Driver Initialized for chrome browser
+[INFO] 10-09-2025 02:33:34 [TestNG-tests-2] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 10-09-2025 02:33:34 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Navigating to URL: https://www.bing.com/

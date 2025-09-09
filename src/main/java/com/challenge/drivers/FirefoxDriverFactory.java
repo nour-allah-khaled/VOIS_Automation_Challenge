@@ -24,7 +24,7 @@ public class FirefoxDriverFactory extends AbstractDriver {
         firefoxOptions.addArguments("--disable-dev-shm-usage");
         switch (PropertyReader.getProperty("executionType"))
         {
-            case "LocalHeadless" -> firefoxOptions.addArguments("--headless=new");
+            case "LocalHeadless" -> firefoxOptions.addArguments("--headless");
             case  "Remote" ->
             {
                 firefoxOptions.addArguments("--disable-gpu");
