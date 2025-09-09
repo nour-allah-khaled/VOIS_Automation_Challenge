@@ -1,0 +1,9 @@
+[INFO] 09-09-2025 06:53:14 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: CHROME
+[INFO] 09-09-2025 06:53:20 [main] [parallel_execution.ParallelExecutionTC] - Driver Initialized for Chrome browser
+[INFO] 09-09-2025 06:53:20 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 06:53:22 [main] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 06:53:22 [main] [parallel_execution.ParallelExecutionTC] - This test is running on Firefox browser
+[INFO] 09-09-2025 06:53:23 [main] [com.challenge.utils.actions.ElementAction] - Typed text 'Vodafone' into element: By.xpath: //textarea[@id='sb_form_q']
+[INFO] 09-09-2025 06:53:24 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.cssSelector: #search_icon
+[INFO] 09-09-2025 06:53:24 [main] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?q=Vodafone&form=QBLH&sp=-1&ghc=1&lq=0&pq=vodafone&sc=15-8&qs=n&sk=&cvid=15AC8670170E4E0B8356A049265D1FE1
+[INFO] 09-09-2025 06:53:25 [main] [parallel_execution.ParallelExecutionTC] - Driver Closed

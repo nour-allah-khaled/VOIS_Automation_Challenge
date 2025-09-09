@@ -1,0 +1,8 @@
+[INFO] 09-09-2025 01:29:11 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
+[INFO] 09-09-2025 01:29:11 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
+[INFO] 09-09-2025 01:29:11 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: EDGE
+[INFO] 09-09-2025 01:29:17 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 01:29:17 [main] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 01:29:18 [main] [com.challenge.utils.actions.ElementAction] - Typed text 'Vodafone' into element: By.xpath: //textarea[@id='sb_form_q']
+[INFO] 09-09-2025 01:29:19 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //form[@id='sb_form']
+[INFO] 09-09-2025 01:29:19 [main] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/

@@ -1,0 +1,12 @@
+[INFO] 09-09-2025 15:28:09 [TestNG-test-Run Parallel Execution Tests on Chrome-1] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatRelatedSearchesContainsVodafone skipped
+[INFO] 09-09-2025 15:28:09 [TestNG-test-Run Parallel Execution Tests on Chrome-1] [parallel_execution.ParallelExecutionTC] - Driver Closed
+[INFO] 09-09-2025 15:28:09 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [com.challenge.drivers.GUIFactory] - Starting driver for browser: CHROME
+[INFO] 09-09-2025 15:28:09 [TestNG-test-Run Parallel Execution Tests on Firefox-1] [com.challenge.drivers.GUIFactory] - Starting driver for browser: CHROME
+[INFO] 09-09-2025 15:28:12 [TestNG-test-Run Parallel Execution Tests on Firefox-1] [parallel_execution.ParallelExecutionTC] - Driver Initialized for Chrome browser
+[INFO] 09-09-2025 15:28:12 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [parallel_execution.ParallelExecutionTC] - Driver Initialized for Chrome browser
+[INFO] 09-09-2025 15:28:12 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 15:28:12 [TestNG-test-Run Parallel Execution Tests on Firefox-1] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 15:28:12 [TestNG-test-Run Parallel Execution Tests on Firefox-1] [parallel_execution.ParallelExecutionTC] - Navigating to URL: https://www.bing.com/
+[INFO] 09-09-2025 15:28:12 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [parallel_execution.ParallelExecutionTC] - Navigating to URL: https://www.bing.com/
+[INFO] 09-09-2025 15:28:12 [TestNG-test-Run Parallel Execution Tests on Firefox-1] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatRelatedSearchesContainsVodafone started
+[WARN] 09-09-2025 15:28:12 [TestNG-test-Run Parallel Execution Tests on Firefox-1] [com.challenge.listeners.TestNGListeners] - Test verifyThatRelatedSearchesContainsVodafone skipped.

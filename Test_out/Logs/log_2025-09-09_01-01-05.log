@@ -1,0 +1,6 @@
+[INFO] 09-09-2025 01:01:05 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
+[INFO] 09-09-2025 01:01:05 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
+[INFO] 09-09-2025 01:01:05 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: EDGE
+[INFO] 09-09-2025 01:01:08 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 01:01:09 [main] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 01:01:10 [main] [com.challenge.utils.actions.ElementAction] - Typed text '"Vodafone"' into element: By.xpath: //textarea[@id='sb_form_q']

@@ -1,0 +1,5 @@
+[INFO] 09-09-2025 15:13:15 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: CHROME
+[INFO] 09-09-2025 15:13:18 [main] [parallel_execution.ParallelExecutionTC] - Driver Initialized for Chrome browser
+[INFO] 09-09-2025 15:13:18 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 15:13:18 [main] [parallel_execution.ParallelExecutionTC] - Navigating to URL: null
+[INFO] 09-09-2025 15:13:19 [main] [parallel_execution.ParallelExecutionTC] - Driver Closed

@@ -1,0 +1,30 @@
+[INFO] 09-09-2025 20:43:18 [TestNG-tests-1] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 20:43:18 [TestNG-tests-1] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults started
+[INFO] 09-09-2025 20:43:18 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - This test is running on Chrome browser
+[INFO] 09-09-2025 20:43:21 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Driver Initialized for chrome browser
+[INFO] 09-09-2025 20:43:21 [TestNG-tests-2] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 20:43:21 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Navigating to URL: https://www.bing.com/
+[INFO] 09-09-2025 20:43:23 [TestNG-tests-2] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 20:43:23 [TestNG-tests-2] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults started
+[INFO] 09-09-2025 20:43:23 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - This test is running on Chrome browser
+[INFO] 09-09-2025 20:43:24 [TestNG-tests-1] [com.challenge.utils.actions.ElementAction] - Typed text 'Vodafone' into element: By.xpath: //textarea[@id='sb_form_q']
+[INFO] 09-09-2025 20:43:24 [TestNG-tests-2] [com.challenge.utils.actions.ElementAction] - Typed text 'Vodafone' into element: By.xpath: //textarea[@id='sb_form_q']
+[INFO] 09-09-2025 20:43:27 [TestNG-tests-1] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.cssSelector: #search_icon
+[INFO] 09-09-2025 20:43:27 [TestNG-tests-1] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?q=vodafone&form=QBLH&sp=-1&lq=0&pq=vodafone&sc=16-8&qs=n&sk=&cvid=06B87A7A050A4020B3C7A2CB08050459&filters=ufn%3A%22Vodafone%22+sid%3A%2224d9776f-347d-0bcf-f6e2-c85a8cfa30c8%22
+[INFO] 09-09-2025 20:43:28 [TestNG-tests-2] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.cssSelector: #search_icon
+[INFO] 09-09-2025 20:43:28 [TestNG-tests-2] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?q=Vodafone&form=QBLH&sp=-1&lq=0&pq=&sc=0-0&qs=n&sk=&cvid=A81480C7282C46CB900A30F7604087C4
+[INFO] 09-09-2025 20:43:28 [TestNG-tests-1] [com.challenge.pages.Page_01] - Related search contains 'Vodafone'
+[INFO] 09-09-2025 20:43:29 [TestNG-tests-2] [com.challenge.pages.Page_01] - Related search does not contain 'Vodafone'
+[INFO] 09-09-2025 20:43:30 [TestNG-tests-1] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //a[@aria-label='Page 2']
+[INFO] 09-09-2025 20:43:30 [TestNG-tests-3] [parallel_execution.ParallelExecutionTC] - Driver Closed
+[INFO] 09-09-2025 20:43:30 [TestNG-tests-3] [com.challenge.drivers.GUIFactory] - Starting driver for browser: FIREFOX
+[INFO] 09-09-2025 20:43:31 [TestNG-tests-2] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\ScreenShot-verifyThatTwoPagesHaveTheSameResults-2025-43-09-08-43-31.png
+[ERROR] 09-09-2025 20:43:31 [TestNG-tests-2] [com.challenge.assertions.SoftAssertion] - Assertion failed: The following asserts failed:
+	URL does not match the expected value. expected [https://www.bing.com/search?q=Vodafone&form=QBLH&sp=-1&ghc=1&lq=0&pq=vodafone&sc=15-8&qs=n&sk=&cvid=A876B00E5BEE4B63BEE9806F3CD95619] but found [https://www.bing.com/search?q=vodafone&form=QBLH&sp=-1&lq=0&pq=vodafone&sc=16-8&qs=n&sk=&cvid=06B87A7A050A4020B3C7A2CB08050459&filters=ufn%3A%22Vodafone%22+sid%3A%2224d9776f-347d-0bcf-f6e2-c85a8cfa30c8%22],
+	URL does not match the expected value. expected [https://www.bing.com/search?q=Vodafone&form=QBLH&sp=-1&ghc=1&lq=0&pq=vodafone&sc=15-8&qs=n&sk=&cvid=A876B00E5BEE4B63BEE9806F3CD95619] but found [https://www.bing.com/search?q=Vodafone&form=QBLH&sp=-1&lq=0&pq=&sc=0-0&qs=n&sk=&cvid=A81480C7282C46CB900A30F7604087C4],
+	Related search does not contain 'Vodafone'. expected [true] but found [false]
+[INFO] 09-09-2025 20:43:33 [TestNG-tests-1] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?q=vodafone&form=GEOTRI&sp=-1&lq=0&pq=vodafone&sc=16-8&qs=n&sk=&cvid=06B87A7A050A4020B3C7A2CB08050459&filters=ufn%3A%22Vodafone%22+sid%3A%2224d9776f-347d-0bcf-f6e2-c85a8cfa30c8%22&isRef=1&showTw=1&isAutoP=1
+[INFO] 09-09-2025 20:43:34 [TestNG-tests-1] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\ScreenShot-verifyThatTwoPagesHaveTheSameResults-2025-43-09-08-43-34.png
+[INFO] 09-09-2025 20:43:34 [TestNG-tests-1] [com.challenge.listeners.TestNGListeners] - Test Execution Failed
+[INFO] 09-09-2025 20:43:34 [TestNG-tests-1] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\failed-verifyThatTwoPagesHaveTheSameResults-2025-43-09-08-43-34.png
+[ERROR] 09-09-2025 20:43:34 [TestNG-tests-1] [com.challenge.listeners.TestNGListeners] - Test verifyThatTwoPagesHaveTheSameResults failed.

@@ -1,0 +1,11 @@
+[INFO] 09-09-2025 01:43:14 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
+[INFO] 09-09-2025 01:43:14 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
+[INFO] 09-09-2025 01:43:14 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: EDGE
+[INFO] 09-09-2025 01:43:18 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 01:43:18 [main] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 01:43:19 [main] [com.challenge.utils.actions.ElementAction] - Typed text 'Vodafone' into element: By.xpath: //textarea[@id='sb_form_q']
+[INFO] 09-09-2025 01:43:20 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.cssSelector: #search_icon
+[INFO] 09-09-2025 01:43:20 [main] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?q=Vodafone&form=QBLH&sp=-1&ghc=1&lq=0&pq=vodafone&sc=15-8&qs=n&sk=&cvid=3365397376E74C3A8F815534266E511C
+[INFO] 09-09-2025 01:43:21 [main] [com.challenge.pages.Page_01] - Related search does not contain 'Vodafone'
+[INFO] 09-09-2025 01:43:23 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //a[@aria-label='Page 2']
+[INFO] 09-09-2025 01:43:23 [main] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?q=Vodafone&sp=-1&ghc=1&lq=0&pq=vodafone&sc=15-8&qs=n&sk=&cvid=3365397376E74C3A8F815534266E511C&FPIG=B8B087984D414973891EA718119A789E&first=12&FORM=PERE

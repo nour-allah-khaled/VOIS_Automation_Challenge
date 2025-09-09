@@ -1,0 +1,5 @@
+[INFO] 09-09-2025 06:17:58 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: EDGE
+[INFO] 09-09-2025 06:18:01 [main] [parallel_execution.ParallelExecutionTC] - Driver Initialized for Edge browser
+[INFO] 09-09-2025 06:18:01 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 06:18:03 [main] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 06:18:04 [main] [parallel_execution.ParallelExecutionTC] - This test is running on Chrome and Edge browser

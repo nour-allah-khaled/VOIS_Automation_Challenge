@@ -1,0 +1,5 @@
+[INFO] 09-09-2025 15:30:49 [TestNG-tests-2] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatRelatedSearchesContainsVodafone passed
+[INFO] 09-09-2025 15:30:51 [TestNG-tests-3] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\ScreenShot-verifyThatRelatedSearchesContainsVodafone-2025-30-09-03-30-51.png
+[INFO] 09-09-2025 15:30:51 [TestNG-tests-3] [com.challenge.listeners.TestNGListeners] - Test Execution Failed
+[INFO] 09-09-2025 15:30:51 [TestNG-tests-3] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\failed-verifyThatRelatedSearchesContainsVodafone-2025-30-09-03-30-51.png
+[ERROR] 09-09-2025 15:30:51 [TestNG-tests-3] [com.challenge.listeners.TestNGListeners] - Test verifyThatRelatedSearchesContainsVodafone failed.

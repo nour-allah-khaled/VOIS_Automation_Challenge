@@ -1,0 +1,5 @@
+[INFO] 08-09-2025 23:58:34 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
+[INFO] 08-09-2025 23:58:34 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
+[INFO] 08-09-2025 23:58:34 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: EDGE
+[INFO] 08-09-2025 23:58:38 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 08-09-2025 23:58:38 [main] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/ 

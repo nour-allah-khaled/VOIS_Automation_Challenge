@@ -1,0 +1,1 @@
+{"uuid":"44083b53-411f-4cad-9a08-3eac29b89d66","name":"parallel_execution.ParallelExecutionTC","children":["ef98f5c4-ebc1-41e4-844f-19092a805c7b"],"befores":[{"name":"setupClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1757442486401,"stop":1757442486433}],"afters":[],"start":1757442486323,"stop":1757442499483}

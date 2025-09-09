@@ -1,0 +1,10 @@
+[INFO] 09-09-2025 06:54:50 [TestNG-tests-2] [com.challenge.drivers.GUIFactory] - Starting driver for browser: CHROME
+[INFO] 09-09-2025 06:54:56 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - Driver Initialized for edge browser
+[INFO] 09-09-2025 06:54:56 [TestNG-tests-1] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 06:55:03 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - Driver Closed
+[INFO] 09-09-2025 06:55:10 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Driver Initialized for chrome browser
+[INFO] 09-09-2025 06:55:10 [TestNG-tests-2] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 06:55:15 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Driver Closed
+[INFO] 09-09-2025 06:55:21 [TestNG-tests-3] [parallel_execution.ParallelExecutionTC] - Driver Initialized for firefox browser
+[INFO] 09-09-2025 06:55:21 [TestNG-tests-3] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 06:55:28 [TestNG-tests-3] [parallel_execution.ParallelExecutionTC] - Driver Closed

@@ -1,0 +1,5 @@
+[INFO] 09-09-2025 15:28:12 [TestNG-test-Run Parallel Execution Tests on Firefox-1] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatRelatedSearchesContainsVodafone skipped
+[INFO] 09-09-2025 15:28:14 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 15:28:14 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults started
+[INFO] 09-09-2025 15:28:14 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\ScreenShot-verifyThatTwoPagesHaveTheSameResults-2025-28-09-03-28-14.png
+[WARN] 09-09-2025 15:28:14 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [com.challenge.listeners.TestNGListeners] - Test verifyThatTwoPagesHaveTheSameResults skipped.

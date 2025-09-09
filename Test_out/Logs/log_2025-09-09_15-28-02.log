@@ -1,0 +1,5 @@
+[INFO] 09-09-2025 15:28:02 [TestNG-test-Run Parallel Execution Tests on Edge-2] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults skipped
+[INFO] 09-09-2025 15:28:03 [TestNG-test-Run Parallel Execution Tests on Edge-1] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 15:28:03 [TestNG-test-Run Parallel Execution Tests on Edge-1] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatRelatedSearchesContainsVodafone started
+[INFO] 09-09-2025 15:28:03 [TestNG-test-Run Parallel Execution Tests on Edge-1] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\ScreenShot-verifyThatRelatedSearchesContainsVodafone-2025-28-09-03-28-03.png
+[WARN] 09-09-2025 15:28:03 [TestNG-test-Run Parallel Execution Tests on Edge-1] [com.challenge.listeners.TestNGListeners] - Test verifyThatRelatedSearchesContainsVodafone skipped.

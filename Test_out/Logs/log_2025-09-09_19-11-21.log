@@ -1,0 +1,17 @@
+[INFO] 09-09-2025 19:11:21 [main] [com.challenge.listeners.TestNGListeners] - Cleaned Allure results
+[INFO] 09-09-2025 19:11:21 [main] [com.challenge.listeners.TestNGListeners] - Starting execution
+[INFO] 09-09-2025 19:11:22 [main] [com.challenge.listeners.TestNGListeners] - Loaded properties
+[INFO] 09-09-2025 19:11:22 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: CHROME
+[INFO] 09-09-2025 19:11:27 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 09-09-2025 19:11:28 [main] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 09-09-2025 19:11:28 [main] [com.challenge.listeners.TestNGListeners] - Test Case test started
+[INFO] 09-09-2025 19:11:28 [main] [com.challenge.utils.actions.ElementAction] - Typed text 'Vodafone' into element: By.xpath: //textarea[@id='sb_form_q']
+[INFO] 09-09-2025 19:11:29 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.cssSelector: #search_icon
+[INFO] 09-09-2025 19:11:29 [main] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?q=vodafone&form=QBLH&sp=-1&lq=0&pq=vodafone&sc=16-8&qs=n&sk=&cvid=7F96E56E9F1142469A8BAE2A55A8DF42&filters=ufn%3A%22Vodafone%22+sid%3A%2224d9776f-347d-0bcf-f6e2-c85a8cfa30c8%22
+[INFO] 09-09-2025 19:11:29 [main] [com.challenge.pages.Page_01] - Related search contains 'Vodafone'
+[INFO] 09-09-2025 19:11:30 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //a[@aria-label='Page 2']
+[INFO] 09-09-2025 19:11:30 [main] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?q=vodafone&sp=-1&lq=0&pq=vodafone&sc=16-8&qs=n&sk=&cvid=7F96E56E9F1142469A8BAE2A55A8DF42&filters=ufn%3a%22Vodafone%22+sid%3a%2224d9776f-347d-0bcf-f6e2-c85a8cfa30c8%22&FPIG=AF49206CBF2B4D2BB6FB581F2130F065&first=11&FORM=PERE
+[INFO] 09-09-2025 19:11:30 [main] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\ScreenShot-test-2025-11-09-07-11-30.png
+[ERROR] 09-09-2025 19:11:30 [main] [com.challenge.assertions.SoftAssertion] - Assertion failed: The following asserts failed:
+	URL does not match the expected value. expected [https://www.bing.com/search?q=Vodafone&form=QBLH&sp=-1&ghc=1&lq=0&pq=vodafone&sc=15-8&qs=n&sk=&cvid=A876B00E5BEE4B63BEE9806F3CD95619] but found [https://www.bing.com/search?q=vodafone&form=QBLH&sp=-1&lq=0&pq=vodafone&sc=16-8&qs=n&sk=&cvid=7F96E56E9F1142469A8BAE2A55A8DF42&filters=ufn%3A%22Vodafone%22+sid%3A%2224d9776f-347d-0bcf-f6e2-c85a8cfa30c8%22]
+[INFO] 09-09-2025 19:11:30 [main] [com.challenge.listeners.TestNGListeners] - Test Execution Finished
