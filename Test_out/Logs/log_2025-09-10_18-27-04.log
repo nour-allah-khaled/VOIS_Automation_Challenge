@@ -1,0 +1,9 @@
+[INFO] 10-09-2025 18:27:04 [TestNG-tests-2] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults skipped
+[INFO] 10-09-2025 18:27:05 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Driver Closed
+[INFO] 10-09-2025 18:27:09 [TestNG-tests-3] [parallel_execution.ParallelExecutionTC] - Driver Initialized for firefox browser
+[INFO] 10-09-2025 18:27:10 [TestNG-tests-3] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 10-09-2025 18:27:10 [TestNG-tests-3] [parallel_execution.ParallelExecutionTC] - Navigating to URL: https://www.bing.com/
+[INFO] 10-09-2025 18:27:11 [TestNG-tests-3] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 10-09-2025 18:27:11 [TestNG-tests-3] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults started
+[INFO] 10-09-2025 18:27:12 [TestNG-tests-3] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\ScreenShot-verifyThatTwoPagesHaveTheSameResults-2025-27-10-06-27-12.png
+[WARN] 10-09-2025 18:27:12 [TestNG-tests-3] [com.challenge.listeners.TestNGListeners] - Test verifyThatTwoPagesHaveTheSameResults skipped.

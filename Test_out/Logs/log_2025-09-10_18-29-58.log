@@ -1,0 +1,21 @@
+[INFO] 10-09-2025 18:30:01 [TestNG-tests-2] [com.challenge.utils.actions.ElementAction] - Typed text 'Vodafone' into element: By.xpath: //textarea[@id='sb_form_q']
+[INFO] 10-09-2025 18:30:02 [TestNG-tests-2] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.cssSelector: #search_icon
+[INFO] 10-09-2025 18:30:03 [TestNG-tests-2] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?search=Submit&q=Vodafone&form=QBLH
+[INFO] 10-09-2025 18:30:03 [TestNG-tests-2] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\ScreenShot-verifyThatRelatedSearchesContainsVodafone-2025-30-10-06-30-03.png
+[ERROR] 10-09-2025 18:30:03 [TestNG-tests-2] [com.challenge.assertions.SoftAssertion] - Assertion failed: The following asserts failed:
+	URL does not match the expected value. expected [https://www.bing.com/search?q=Vodafone&form=QBLH&sp=-1&ghc=1&lq=0&pq=vodafone&sc=15-8&qs=n&sk=&cvid=A876B00E5BEE4B63BEE9806F3CD95619] but found [https://www.bing.com/search?search=Submit&q=Vodafone&form=QBLH]
+[INFO] 10-09-2025 18:30:03 [TestNG-tests-2] [com.challenge.drivers.GUIFactory] - Starting driver for browser: CHROME
+[INFO] 10-09-2025 18:30:15 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Driver Initialized for chrome browser
+[INFO] 10-09-2025 18:30:15 [TestNG-tests-2] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 10-09-2025 18:30:15 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Navigating to URL: https://www.bing.com/
+[INFO] 10-09-2025 18:30:18 [TestNG-tests-2] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 10-09-2025 18:30:18 [TestNG-tests-2] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults started
+[INFO] 10-09-2025 18:30:18 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - This test is running on Chrome browser
+[INFO] 10-09-2025 18:30:19 [TestNG-tests-2] [com.challenge.utils.actions.ElementAction] - Typed text 'Vodafone' into element: By.xpath: //textarea[@id='sb_form_q']
+[INFO] 10-09-2025 18:30:20 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - Driver Closed
+[INFO] 10-09-2025 18:30:21 [TestNG-tests-2] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.cssSelector: #search_icon
+[INFO] 10-09-2025 18:30:22 [TestNG-tests-2] [com.challenge.utils.actions.BrowserAction] - Current URL: https://www.bing.com/search?search=Submit&q=Vodafone&form=QBLH
+[INFO] 10-09-2025 18:30:22 [TestNG-tests-2] [com.challenge.media.ScreenShotMedia] - Screenshot taken: C:\Users\Dell\IdeaProjects\VOIS_Automation_Challenge\Test_out\ScreenShots\ScreenShot-verifyThatTwoPagesHaveTheSameResults-2025-30-10-06-30-22.png
+[ERROR] 10-09-2025 18:30:22 [TestNG-tests-2] [com.challenge.assertions.SoftAssertion] - Assertion failed: The following asserts failed:
+	URL does not match the expected value. expected [https://www.bing.com/search?q=Vodafone&form=QBLH&sp=-1&ghc=1&lq=0&pq=vodafone&sc=15-8&qs=n&sk=&cvid=A876B00E5BEE4B63BEE9806F3CD95619] but found [https://www.bing.com/search?search=Submit&q=Vodafone&form=QBLH]
+[INFO] 10-09-2025 18:30:22 [main] [com.challenge.listeners.TestNGListeners] - Test Execution Finished

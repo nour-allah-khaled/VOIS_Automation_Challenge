@@ -1,0 +1,3 @@
+[INFO] 10-09-2025 18:26:48 [TestNG-tests-2] [parallel_execution.ParallelExecutionTC] - Driver Initialized for chrome browser
+[INFO] 10-09-2025 18:27:01 [TestNG-tests-2] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults started
+[WARN] 10-09-2025 18:27:04 [TestNG-tests-2] [com.challenge.listeners.TestNGListeners] - Test verifyThatTwoPagesHaveTheSameResults skipped.

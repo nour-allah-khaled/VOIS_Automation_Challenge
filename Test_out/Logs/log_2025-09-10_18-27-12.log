@@ -1,0 +1,12 @@
+[INFO] 10-09-2025 18:27:12 [TestNG-tests-3] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults skipped
+[INFO] 10-09-2025 18:27:12 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - Driver Closed
+[INFO] 10-09-2025 18:27:12 [TestNG-tests-1] [com.challenge.drivers.GUIFactory] - Starting driver for browser: EDGE
+[INFO] 10-09-2025 18:27:17 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - Driver Initialized for edge browser
+[INFO] 10-09-2025 18:27:17 [TestNG-tests-1] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 10-09-2025 18:27:17 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - Navigating to URL: https://www.bing.com/
+[INFO] 10-09-2025 18:27:18 [TestNG-tests-1] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
+[INFO] 10-09-2025 18:27:18 [TestNG-tests-1] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults started
+[INFO] 10-09-2025 18:27:18 [TestNG-tests-1] [parallel_execution.ParallelExecutionTC] - This test is running on Chrome browser
+[INFO] 10-09-2025 18:27:18 [TestNG-tests-1] [com.challenge.utils.actions.ElementAction] - Typed text 'Vodafone' into element: By.xpath: //textarea[@id='sb_form_q']
+[INFO] 10-09-2025 18:27:41 [TestNG-tests-1] [com.challenge.listeners.TestNGListeners] - Test Execution Failed
+[ERROR] 10-09-2025 18:27:41 [TestNG-tests-1] [com.challenge.listeners.TestNGListeners] - Test verifyThatTwoPagesHaveTheSameResults failed.
