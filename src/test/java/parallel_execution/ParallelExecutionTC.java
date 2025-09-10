@@ -8,8 +8,8 @@ import io.qameta.allure.*;
 import org.testng.annotations.*;
 
 @Epic("Parallel Execution")
-@Feature("Test the search Functionality on different browsers")
-@Story("As a user I want to search for a text on different browsers")
+@Feature("Search Functionality and Pagination on Different Browsers")
+@Story("As a user i want to search for a specific text and pagination functionality on different browsers")
 @Severity(SeverityLevel.CRITICAL)
 @Owner("Nour Allah Khaled")
 public class ParallelExecutionTC extends BaseClassTC {

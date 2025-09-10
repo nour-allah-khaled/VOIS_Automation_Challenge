@@ -12,9 +12,9 @@ import org.testng.annotations.Test;
 import parallel_execution.BaseClassTC;
 
 @org.testng.annotations.Listeners(TestNGListeners.class)
-@Epic("Automation Challenge")
-@Feature("Search and Pagination and count verification functionality")
-@Story("AS a user i want to Test the search and pagination and count verification functionality so that i can ensure it works correctly")
+@Epic("Parallel Execution")
+@Feature("Search Functionality and Pagination")
+@Story("As a user i want to search for a specific text and pagination functionality")
 @Severity(SeverityLevel.CRITICAL)
 @Owner("Nour Allah Khaled")
 public class TC_Page_01 extends BaseClassTC {
