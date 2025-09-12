@@ -10,10 +10,16 @@ import com.challenge.utils.logs.LogsManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.*;
 
+import java.io.File;
+
+import static com.challenge.utils.logs.LogsManager.LOGS_PATH;
+
 public class TestNGListeners implements IExecutionListener, IInvokedMethodListener, ITestListener {
     public void onExecutionStart() {
         AllureUtil.cleanAllureResults();
         LogsManager.info("Cleaned Allure results");
+        AllureUtil.cleanLogfile(new File(LOGS_PATH));
+        LogsManager.info("Cleaned Logfile");
         LogsManager.info("Starting execution");
         PropertyReader.loadProperties();
         LogsManager.info("Loaded properties");

@@ -13,6 +13,14 @@ public class AllureUtil {
     public static void cleanAllureResults() {
         FileUtils.deleteQuietly(new File("Test_out/allure-results"));
     }
+    public static void cleanLogfile(File file)
+    {
+        try{
+            org.apache.commons.io.FileUtils.deleteQuietly(file);
+    }catch (Exception e){
+            LogsManager.error("Failed to clean directory:" , file.getAbsolutePath(), e.getMessage());
+        }
+    }
     public static void attachLogs() {
         try {
             File logFile = new File(LogsManager.LOGS_PATH + "logs.log");

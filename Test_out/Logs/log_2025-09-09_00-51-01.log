@@ -1,7 +1,0 @@
-[INFO] 09-09-2025 00:51:01 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
-[ERROR] 09-09-2025 00:51:01 [main] [com.challenge.datareader.JsonReader] - Error reading json file: Data.json src\test\resources\Test_Data\Data.json.json (The system cannot find the file specified)
-[INFO] 09-09-2025 00:51:01 [main] [com.challenge.datareader.PropertyReader] - Properties file loaded successfully
-[INFO] 09-09-2025 00:51:01 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: EDGE
-[INFO] 09-09-2025 00:51:04 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
-[INFO] 09-09-2025 00:51:05 [main] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://www.bing.com/
-[ERROR] 09-09-2025 00:51:05 [main] [com.challenge.datareader.JsonReader] - Error reading json file for path: Text No results for path: $['Text']

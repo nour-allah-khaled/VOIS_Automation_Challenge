@@ -1,3 +1,0 @@
-[INFO] 09-09-2025 15:28:14 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [com.challenge.listeners.TestNGListeners] - Test Case verifyThatTwoPagesHaveTheSameResults skipped
-[INFO] 09-09-2025 15:28:15 [TestNG-test-Run Parallel Execution Tests on Firefox-2] [parallel_execution.ParallelExecutionTC] - Driver Closed
-[INFO] 09-09-2025 15:28:15 [main] [com.challenge.listeners.TestNGListeners] - Test Execution Finished
