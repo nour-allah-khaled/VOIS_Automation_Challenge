@@ -2,7 +2,7 @@ package com.challenge.listeners;
 
 import com.challenge.assertions.SoftAssertion;
 import com.challenge.datareader.PropertyReader;
-import com.challenge.drivers.WebDriverProvider;
+import com.challenge.drivers.GUIFactory;
 import com.challenge.media.ScreenShotMedia;
 import com.challenge.utils.AllureUtil;
 import com.challenge.utils.logs.LogsManager;
@@ -38,8 +38,7 @@ public class TestNGListeners implements IExecutionListener, IInvokedMethodListen
     public void afterInvocation(IInvokedMethod method, ITestResult testResult, ITestContext context) {
         WebDriver driver = null;
         if (method.isTestMethod()) {
-            if (testResult.getInstance() instanceof WebDriverProvider provider) {
-                driver = provider.getWebDriver();
+                driver = GUIFactory.getDriver(); //driver.getDriver();
                 ScreenShotMedia.Screen_shot(driver, "ScreenShot-" + testResult.getName());
                 SoftAssertion.assertAll();
                 if (testResult.getStatus() == ITestResult.FAILURE) {
@@ -58,7 +57,6 @@ public class TestNGListeners implements IExecutionListener, IInvokedMethodListen
                     }
                 }
                 AllureUtil.attachLogs();
-            }
         }
     }
     public void onTestStart(ITestResult result) {

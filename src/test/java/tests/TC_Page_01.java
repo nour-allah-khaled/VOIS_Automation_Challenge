@@ -11,7 +11,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import parallel_execution.BaseClassTC;
 
-@org.testng.annotations.Listeners(TestNGListeners.class)
 @Epic("Parallel Execution")
 @Feature("Search Functionality and Pagination")
 @Story("As a user i want to search for a specific text and pagination functionality")

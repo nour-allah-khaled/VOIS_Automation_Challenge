@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ThreadGuard;
 
 public class GUIFactory {
     private String browser ;
-    private ThreadLocal<WebDriver> ThreadLocalWebdriver = new ThreadLocal<>();
+    private static ThreadLocal<WebDriver> ThreadLocalWebdriver = new ThreadLocal<>();
     public GUIFactory() {
         browser = PropertyReader.getProperty("browser");
         Browser browserEnum = Browser.valueOf(browser.toUpperCase());
@@ -39,7 +39,7 @@ public class GUIFactory {
     public SoftAssertion getSoftAssertion() {
         return new SoftAssertion(getDriver());
     }
-    public WebDriver getDriver() {
+    public static WebDriver getDriver() {
         return ThreadLocalWebdriver.get();
     }
     public void quitDriver() {
