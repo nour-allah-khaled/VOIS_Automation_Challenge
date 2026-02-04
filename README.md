@@ -130,3 +130,11 @@ Below are sample screenshots captured from the Allure report during test executi
 ![Parallel Execution Screenshot](https://github.com/nour-allah-khaled/VOIS_Automation_Challenge/blob/main/AllureResult_ScreenShots/Attachment_ParallelExecutionTC/Parallel%20Execution.png?raw=true)
 
 ---
+## 💁‍♀  ️Author
+
+🌸 **Nour Allah Khaled** 🌸
+  - Software Tester | Web and Mobile Automation Enthusiast  
+  - Email: nourallahk7@gmail.com  
+  - GitHub: [https://github.com/nourallahk7](https://github.com/nour-allah-khaled)  
+  - LinkedIn: [https://www.linkedin.com/in/nour-allah-khaled/](https://www.linkedin.com/in/nour-allah-khaled/)
+---
